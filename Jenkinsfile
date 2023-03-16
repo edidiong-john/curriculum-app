@@ -9,7 +9,7 @@ pipeline {
 
     stage('Log') {
       parallel {
-        stage('Log') {
+        stage('Test') {
           steps {
             sh 'ls -la'
           }
